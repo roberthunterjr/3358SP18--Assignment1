@@ -1,4 +1,11 @@
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class MyUtil {
 
@@ -16,6 +23,21 @@ public class MyUtil {
             reader.close();
         }
         return output;
+    }
+
+    public static List<String> getLines(String relativePath){
+        Charset cs = Charset.defaultCharset();
+        try {
+            List<String> lines = Files.readAllLines(Paths.get(relativePath), cs);
+            return lines;
+        } catch (IOException e){
+            System.out.println(e);
+            return new ArrayList<>();
+        }
+    }
+
+    public static int getRandomInt(int min, int max){
+        return ThreadLocalRandom.current().nextInt(min, max + 1);
     }
 
 }
