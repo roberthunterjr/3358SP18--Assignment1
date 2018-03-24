@@ -30,6 +30,7 @@ public class NeedleHaystack {
     public static int getNumNeedlesInHaystack(String needle, String haystack) {
         // Will use scanforNeedle to perform a linear search of the haystack
         int needleCount = 0;
+        haystack = haystack.toLowerCase();   // handle the all case situations
         char firstChar = needle.charAt(0);  //When this char shows up in haystack it is a possible needle
 
         //  Iterater linearly through the haystack
@@ -50,9 +51,9 @@ public class NeedleHaystack {
      */
     public static boolean scanForNeedle(String needle, String haystack, int haystackIndex) {
         int needleLength = needle.length(); // Used to see how far in the haystack to go
-        int endPoint = haystackIndex + needleLength;    // The last index the loop needs to check before confirming needle
+        int endPoint = (haystackIndex + needleLength >= haystack.length()) ? haystack.length() - haystackIndex : needleLength;    // The last index the loop needs to check before confirming needle
 
-        for (int i = 0; i < needleLength; i++) {
+        for (int i = 0; i < endPoint; i++) {
             if(needle.charAt(i) != haystack.charAt(haystackIndex + i)) {
                 return false;
             }
