@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c8b7ff8-2239-44b5-a7cc-a061b301bf7f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ReverseLinkedList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SortedIndex.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/3358ProjectA1/NeedleHaystack.class" afterPath="$PROJECT_DIR$/out/production/3358ProjectA1/NeedleHaystack.class" />
-      <change beforePath="$PROJECT_DIR$/src/NeedleHaystack.java" afterPath="$PROJECT_DIR$/src/NeedleHaystack.java" />
+      <change beforePath="$PROJECT_DIR$/src/ReverseLinkedList.java" afterPath="$PROJECT_DIR$/src/ReverseLinkedList.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,9 +62,12 @@
       <file leaf-file-name="ReverseLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ReverseLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="90">
+              <caret line="6" column="82" lean-forward="false" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
+              <folding>
+                <element signature="e#416#425#0" expanded="true" />
+                <element signature="e#766#775#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/MyUtil.java" />
         <option value="$PROJECT_DIR$/src/NeedleHaystack.java" />
         <option value="$PROJECT_DIR$/src/SortedIndex.java" />
+        <option value="$PROJECT_DIR$/src/ReverseLinkedList.java" />
       </list>
     </option>
   </component>
@@ -136,6 +136,24 @@
             <path>
               <item name="3358Project1A" type="b2602c69:ProjectViewProjectNode" />
               <item name="3358ProjectA1" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3358Project1A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3358ProjectA1" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3358Project1A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3358ProjectA1" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="3358ProjectA1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3358Project1A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3358ProjectA1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -161,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortedIndex">
+  <component name="RunManager" selected="Application.ReverseLinkedList">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -184,6 +202,19 @@
     </configuration>
     <configuration name="Quadratic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Quadratic" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="3358ProjectA1" />
+      <envs />
+    </configuration>
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseLinkedList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -259,16 +290,18 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Quadratic" />
       <item index="1" class="java.lang.String" itemvalue="Application.NeedleHaystack" />
       <item index="2" class="java.lang.String" itemvalue="Application.SortedIndex" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ReverseLinkedList" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.SortedIndex" />
-        <item index="1" class="java.lang.String" itemvalue="Application.NeedleHaystack" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Quadratic" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.ReverseLinkedList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SortedIndex" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NeedleHaystack" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Quadratic" />
       </list>
     </recent_temporary>
   </component>
@@ -363,9 +396,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReverseLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="90">
+          <caret line="6" column="82" lean-forward="false" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
+          <folding>
+            <element signature="e#416#425#0" expanded="true" />
+            <element signature="e#766#775#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
