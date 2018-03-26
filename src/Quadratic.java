@@ -7,11 +7,26 @@ public class Quadratic {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello");
-        int a = Integer.parseInt(MyUtil.getInput("Please enter the x^2 coefficient", 0));
-        int b = Integer.parseInt(MyUtil.getInput("Please enter the x coefficient", 0));
-        int c = Integer.parseInt(MyUtil.getInput("Please enter the constant", 1));
-        System.out.println(getQuadFormat(quadFormula(a, b, c)));
+        System.out.println("Quadratic Tests");
+//        int a = Integer.parseInt(MyUtil.getInput("Please enter the x^2 coefficient", 0));
+//        int b = Integer.parseInt(MyUtil.getInput("Please enter the x coefficient", 0));
+//        int c = Integer.parseInt(MyUtil.getInput("Please enter the constant", 1));
+//        System.out.println(getQuadFormat(quadFormula(a, b, c)));
+        tests();
+    }
+
+    public static void tests() {
+        System.out.println("Test: Should Handle 2 root");
+        System.out.println(getQuadFormat(quadFormula(5,0,-10)));
+        System.out.println("Test: Should Handle 2 root");
+        System.out.println(getQuadFormat(quadFormula(1,-5,-2)));
+        System.out.println("Test: Should Handle positive 1 root");
+        System.out.println(getQuadFormat(quadFormula(1,0,0)));
+        System.out.println("Test: Should Handle negative 1 root");
+        System.out.println(getQuadFormat(quadFormula(-1,0,0)));
+        System.out.println("Test: Should Handle imaginary roots");
+        System.out.println(getQuadFormat(quadFormula(-4,-5,-33)));
+
     }
 
 
